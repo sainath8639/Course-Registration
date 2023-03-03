@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="../styles/registerCourses.css" />
+    <script type="module" defer src="../js/registerCourses.js"></script>
+  </head>
+  <body>
+    <nav>
+      <div class="container nav-container">
+        <a href="../index.html">
+          <img
+            src="../images/logo.jpeg"
+            width="100px"
+            height="100px"
+            style="border-radius: 50%"
+          />
+        </a>
+        <h2 class="container-title">Register Courses</h2>
+        <ul class="nav_menu">
+          <li><a href="../pages/admin.html">Admin</a></li>
+          <li><a href="../pages/registerCourses.html">Register Courses</a></li>
+          <li><a href="../pages/myCourses.html">My Courses</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container container-body">
+      <section>
+        <form class="semester-form">
+          <label for="semester">
+            <h3>Select Semester</h3>
+            <select name="semester">
+              <option value="1">First semester</option>
+              <option value="2">Second semester</option>
+            </select>
+          </label>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+
+      <section class="courses">
+        <form class="courses-form">
+          <ul class="courses-list"></ul>
+        </form>
+      </section>
+
+      <section class="courses-selected">
+        <ul class="courses-selected-list"></ul>
+      </section>
+    </div>
+    <!-- show a form to select a list of courses -->
+  </body>
+</html>

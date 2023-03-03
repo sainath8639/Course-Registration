@@ -1,0 +1,74 @@
+* {
+  /* background-color: palevioletred; */
+  margin: 0;
+  /* margin-top: 5px; */
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  background-color: var(--background-primary);
+  list-style: none;
+  padding-left: 0.4rem;
+  padding-top: 0.2rem;
+  padding-right: 0.4rem;
+  color: var(--color-text-2);
+  height: 1.2;
+}
+
+:root {
+  --background-primary: #000b2e;
+  --color-white: #fff;
+  --color-text-2: bisque;
+  --color-red: #f00;
+  --btn-background-color: lightsalmon;
+  --btn-text-color: black;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav_menu {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.nav_menu a:hover {
+  color: var(--color-red);
+}
+
+/* padding not working  */
+.container-title {
+  text-decoration: underline;
+  color: bisque;
+  display: flex;
+  align-items: center;
+}
+
+.container-body {
+  margin-top: 5%;
+  padding: 1% 5%;
+}
+
+img {
+  padding: 1px;
+  border: 1px solid red;
+}
+
+body {
+}
+
+button {
+  padding: 5px;
+  background-color: var(--btn-background-color);
+  color: var(--btn-text-color);
+  border-radius: 10%;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: darkorange;
+  padding: 6px;
+}
